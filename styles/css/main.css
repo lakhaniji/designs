@@ -389,10 +389,17 @@ button {
 }
 
 .container {
-  max-width: 1150px;
+  /* max-width: 1150px; */
   padding: 0 25px;
 }
 
+.nav-bar-container{
+  background-color: white;
+  position: fixed;
+  width: 100% !important;
+  z-index: 555;
+
+}
 .container-lg {
   max-width: 3000px;
 }
